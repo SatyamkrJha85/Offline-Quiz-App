@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".QuizFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16sp"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Complete Your Test"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"/>
+
+        <LinearLayout
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Qno"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"/>
+
+            <TextView
+                android:id="@+id/totalquestion"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="/25"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/questioncon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/questionbg"
+            android:gravity="center"
+            android:padding="40sp"
+            android:text="What is the colour of lion in India"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/option1Con"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="White"
+        android:padding="25sp"
+        android:layout_marginTop="16dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="56dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="@drawable/sub_item_bg"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:id="@+id/option2Con"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Black"
+        android:padding="25sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="56dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="@drawable/sub_item_bg"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Green"
+        android:id="@+id/option3Con"
+        android:padding="25sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="56dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="@drawable/sub_item_bg"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Yellow"
+        android:id="@+id/option4Con"
+        android:padding="25sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="56dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="@drawable/sub_item_bg"
+        android:layout_width="match_parent"/>
+
+
+        <RelativeLayout
+            android:gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:id="@+id/next_btn"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/disable_btn"
+                android:textSize="15dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

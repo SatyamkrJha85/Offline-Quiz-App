@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680904119416",
+    "project_id": "offline-computer-quiz",
+    "storage_bucket": "offline-computer-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680904119416:android:3ef908256097047b2a898d",
+        "android_client_info": {
+          "package_name": "com.computer.offlinecomputerquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8GdWc6YbJQDABfPTeGZxFCCMg6MbaL9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
